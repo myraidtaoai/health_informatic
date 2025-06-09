@@ -200,7 +200,7 @@ class DatabaseAgent:
 
 def main():
     patient_id = 143
-    gemini_key = "AIzaSyAwT9QzO9EZCxGRtyoIBVd_DO2fUxocMOg"
+    gemini_key = "your_gemini_api_key_here"
     question = "What treaments the patient has recently?"
     agent = DatabaseAgent(patient_id, gemini_key, question)
     final_answer = agent.create_agent()
